@@ -1,0 +1,38 @@
+{
+  "engineVersion": "5.4.1",
+  "compilerVersion": "5.4.1",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "p2Physics",
+      "path": "libs/p2Physics"
+    }
+  ],
+  "vivo": {
+    "usePlugin": true
+  },
+  "targets": {
+    "android": {
+      "appname": "PhysicalBall",
+      "packagename": "com.companyname"
+    }
+  }
+}
